@@ -1,0 +1,5 @@
+" [ICS VERSION STRING: @(#) ./Lsf/edit.openmpi.wrapper 10_4_1_0_1 [04/30/17 13:35]
+1
+/MPIRUN_CMD=
+s/MPIHOME/MPICH_PREFIX/
+wq

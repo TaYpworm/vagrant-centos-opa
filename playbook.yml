@@ -1,0 +1,134 @@
+---
+- hosts: all
+  tasks:
+    - name: Install libibmad
+      yum: pkg=libibmad state=latest
+      become: true
+
+    - name: Install libibverbs
+      yum: pkg=libibverbs state=latest
+      become: true
+
+    - name: Install librdmacm
+      yum: pkg=librdmacm state=latest
+      become: true
+
+    - name: Install libibcm
+      yum: pkg=libibcm state=latest
+      become: true
+
+    - name: Install qperf
+      yum: pkg=perftest state=latest
+      become: true
+
+    - name: Install rdma
+      yum: pkg=rdma state=latest
+      become: true
+
+    - name: Install infinipath-psm
+      yum: pkg=infinipath-psm state=latest
+      become: true
+
+    - name: Install expat
+      yum: pkg=expat state=latest
+      become: true
+
+    - name: Install elfutils-libelf-devel
+      yum: pkg=elfutils-libelf-devel state=latest
+      become: true
+
+    - name: Install libstdc++-devel
+      yum: pkg=libstdc++-devel state=latest
+      become: true
+
+    - name: Install gcc-gfortran
+      yum: pkg=gcc-gfortran state=latest
+      become: true
+
+    - name: Install atlas
+      yum: pkg=atlas state=latest
+      become: true
+
+    - name: Install tcl
+      yum: pkg=tcl state=latest
+      become: true
+
+    - name: Install expect
+      yum: pkg=expect state=latest
+      become: true
+
+    - name: Install tcsh
+      yum: pkg=tcsh state=latest
+      become: true
+
+    - name: Install sysfsutils
+      yum: pkg=sysfsutils state=latest
+      become: true
+
+    - name: Install pciutils
+      yum: pkg=pciutils state=latest
+      become: true
+
+    - name: Install opensm-devel
+      yum: pkg=opensm-devel state=latest
+      become: true
+
+    - name: Install opensm-libs
+      yum: pkg=opensm-libs state=latest
+      become: true
+
+    - name: Install libibverbs-devel
+      yum: pkg=libibverbs-devel state=latest
+      become: true
+
+    - name: Install libibmad-devel
+      yum: pkg=libibmad-devel state=latest
+      become: true
+
+    - name: Install librdmacm-devel
+      yum: pkg=librdmacm-devel state=latest
+      become: true
+
+    - name: Install ibacm-devel
+      yum: pkg=ibacm-devel state=latest
+      become: true
+
+    - name: Install openssl-devel
+      yum: pkg=openssl-devel state=latest
+      become: true
+
+    - name: Install libuuid-devel
+      yum: pkg=libuuid-devel state=latest
+      become: true
+
+    - name: Install expat-devel
+      yum: pkg=expat-devel state=latest
+      become: true
+
+    - name: Install infinipath-psm-devel
+      yum: pkg=infinipath-psm-devel state=latest
+      become: true
+
+    - name: Install libhfi1
+      yum: pkg=libhfi1 state=latest
+      become: true
+
+    - name: Install papi
+      yum: pkg=papi state=latest
+      become: true
+
+    - name: Install gcc
+      yum: pkg=gcc state=latest
+      become: true
+
+    - name: Install rpm-build
+      yum: pkg=rpm-build state=latest
+      become: true
+
+    - name: Install redhat-rpm-config
+      yum: pkg=redhat-rpm-config state=latest
+      become: true
+
+    - name: Install bc
+      yum: pkg=bc state=latest
+      become: true
